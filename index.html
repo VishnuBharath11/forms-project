@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <h1>Course Registration Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+<table>
+    <tr>
+        <td>
+    <label for="">First Name</label></td>
+        <td><input type="text" placeholder="Ex. Vishnu" size="25" maxlength="25" required> 
+        <p>Enter First Name</p>
+        </td>
+        
+    </tr>
+
+    <tr>
+           <td>  
+    <label for="">Surname</label></td>
+        <td>
+    <input type="text" placeholder="Ex. T" size="25" maxlength="5" optional>
+<p>Enter Surname</p></td>
+    </tr>
+
+    <tr>
+        <td><label for="">Mobile Number</label></td>
+        <td>
+    <input type="tel" placeholder="Ex. 7010-927-714" size="25" maxlength="10" required>
+<p>Enter Mobile Number</p></td>
+    </tr>
+
+    <tr>
+        <td>    <label for="">Email</label></td>
+        <td>    <input type="email" placeholder="Ex. vishnubharath@gmail.com" size="25" required>
+            <img src="./pngtree-d-green-check-mark-icon-in-round-isolated-transparent-background-tick-png-image_6552327.png" alt="" id="crt">
+            <img src="./wrong.webp" alt="" id="wr">
+        </td>
+        
+    </tr>
+
+    <tr>
+        <td> <label for="">Password</label></td>
+        <td>
+    <input type="password" placeholder="min 5 characters" size="25" required >
+<p>Enter password</p></td>
+    </tr>
+
+    <tr>
+        <td>
+
+   
+    <label for="">Confirm Password</label></td>
+        <td>
+    <input type="password" placeholder="min 5 characters" size="25" required>
+<p>Confirm password</p></td>
+    </tr>
+
+    <tr>
+        <td>   <label for="">DOB</label></td>
+        <td>    <input type="date" placeholder="dd-mm-yyyy" required>
+        <p>Enter DOB</p></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="">Age</label>
+        </td>
+        <td><input type="number" placeholder ="Enter age" size="10" maxlength="4" required>
+        <p>Enter age</p></td>
+    </tr>
+
+    <tr>
+        <td>  <label for="">Gender</label></td>
+        <td>    <input type="radio" name="Gender" value="Male" ><label for=""> Male</label>
+            <input type="radio" name="Gender" value="Female"> <label for=""> Female</label>
+         <input type="radio" name="Gender" value="Others"> <label for=""> Others</label></td>
+    </tr>
+
+    <tr>
+        <td>   
+    <label for="">Select Country</label></td>
+        <td>
+             <select name="" id="">
+        <option value="">INDIA</option>
+        <option value="">USA</option>
+        <option value="">CHINA</option>
+    </select> 
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+    <label for="">Upload Resume</label></td>
+        <td> 
+    <input type="file"></td>
+    </tr>
+</table>
+
+    <input type="reset"><br>
+    </fieldset>
+
+<fieldset>
+    <legend>Course Details</legend>
+    <label for="">Select Course</label><BR>
+    <select name="" id="">
+        <option value="">Python Full Stack</option>
+        <option value="">Java Full Stack</option>
+        <option value="">MERN Stack</option>
+        <option value="">MEAN Stack</option>
+    </select><br>
+    <table>
+        <tr>
+            <td>
+    <label for="">Delivery Mode</label></td>  
+    <td>
+    <input type="radio" name="Delivery Mode"><label for=""> Online</label> 
+    <input type="radio" name="Delivery Mode"><label for="">Offline</label>
+</td>
+    </tr>
+    </table>
+    <label for="">Comments</label><br>
+    <textarea name="" id="" cols="50" rows="10"> </textarea>
+    </fieldset>
+    <table>
+        <tr>
+            <td>    <input type="submit"></td>
+        </tr>
+    </table>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
